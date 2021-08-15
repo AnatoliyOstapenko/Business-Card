@@ -17,8 +17,33 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
 
 
-            Text("Anatoliy Ostapenko")
-                .padding()
+            VStack {
+                
+                
+                Image("MyPicNew")
+                    //adjust my pic to frame of screen
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    // make pic as a circle
+                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                
+                
+                Text("Anatoliy Ostapenko")
+                    // bold the text
+                    .bold()
+                    .padding()
+                    // make custom font text from GoogleFonts
+                    .font(Font.custom("Pacifico-Regular", fixedSize: 40))
+                    .foregroundColor(.white)
+                
+                Text("IOS Developer")
+                    .font(.system(size: 30))
+                    .foregroundColor(.white)
+
+                
+            }
+            
                 
 
         }

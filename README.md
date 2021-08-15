@@ -1,7 +1,9 @@
 
 # Business Card
 
-## It' application to have been created for my own business card
+## This app was created for my own business card
 
-## Object of proect
+## Objective of the project
+
+
 - practice to use SwiftUI

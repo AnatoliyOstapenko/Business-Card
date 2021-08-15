@@ -12,6 +12,8 @@
 		FA61BDC726C975E20068364F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA61BDC626C975E20068364F /* Assets.xcassets */; };
 		FA61BDCA26C975E20068364F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA61BDC926C975E20068364F /* Preview Assets.xcassets */; };
 		FA61BDD326C976050068364F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA61BDD226C976050068364F /* README.md */; };
+		FA61BDD726C996660068364F /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA61BDD626C996660068364F /* Pacifico-Regular.ttf */; };
+		FA61BDDA26C998490068364F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA61BDD926C998490068364F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FA61BDC926C975E20068364F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA61BDCB26C975E20068364F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA61BDD226C976050068364F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA61BDD626C996660068364F /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		FA61BDD926C998490068364F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		FA61BDB626C975DD0068364F = {
 			isa = PBXGroup;
 			children = (
+				FA61BDD526C9961D0068364F /* Fonts */,
 				FA61BDD226C976050068364F /* README.md */,
 				FA61BDC126C975DE0068364F /* Business Card */,
 				FA61BDC026C975DE0068364F /* Products */,
@@ -60,6 +65,7 @@
 				FA61BDC626C975E20068364F /* Assets.xcassets */,
 				FA61BDCB26C975E20068364F /* Info.plist */,
 				FA61BDC826C975E20068364F /* Preview Content */,
+				FA61BDD926C998490068364F /* Launch Screen.storyboard */,
 			);
 			path = "Business Card";
 			sourceTree = "<group>";
@@ -70,6 +76,14 @@
 				FA61BDC926C975E20068364F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA61BDD526C9961D0068364F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA61BDD626C996660068364F /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA61BDD326C976050068364F /* README.md in Resources */,
+				FA61BDD726C996660068364F /* Pacifico-Regular.ttf in Resources */,
 				FA61BDCA26C975E20068364F /* Preview Assets.xcassets in Resources */,
+				FA61BDDA26C998490068364F /* Launch Screen.storyboard in Resources */,
 				FA61BDC726C975E20068364F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
