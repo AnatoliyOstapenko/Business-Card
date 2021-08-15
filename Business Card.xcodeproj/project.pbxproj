@@ -13,7 +13,6 @@
 		FA61BDCA26C975E20068364F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA61BDC926C975E20068364F /* Preview Assets.xcassets */; };
 		FA61BDD326C976050068364F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA61BDD226C976050068364F /* README.md */; };
 		FA61BDD726C996660068364F /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA61BDD626C996660068364F /* Pacifico-Regular.ttf */; };
-		FA61BDDA26C998490068364F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA61BDD926C998490068364F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		FA61BDCB26C975E20068364F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA61BDD226C976050068364F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FA61BDD626C996660068364F /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
-		FA61BDD926C998490068364F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				FA61BDC626C975E20068364F /* Assets.xcassets */,
 				FA61BDCB26C975E20068364F /* Info.plist */,
 				FA61BDC826C975E20068364F /* Preview Content */,
-				FA61BDD926C998490068364F /* Launch Screen.storyboard */,
 			);
 			path = "Business Card";
 			sourceTree = "<group>";
@@ -146,7 +143,6 @@
 				FA61BDD326C976050068364F /* README.md in Resources */,
 				FA61BDD726C996660068364F /* Pacifico-Regular.ttf in Resources */,
 				FA61BDCA26C975E20068364F /* Preview Assets.xcassets in Resources */,
-				FA61BDDA26C998490068364F /* Launch Screen.storyboard in Resources */,
 				FA61BDC726C975E20068364F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
