@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0EAF4226CAD1CC00C6B792 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0EAF4126CAD1CC00C6B792 /* ContactView.swift */; };
 		FA61BDC326C975DE0068364F /* Business_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61BDC226C975DE0068364F /* Business_CardApp.swift */; };
 		FA61BDC526C975DE0068364F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61BDC426C975DE0068364F /* ContentView.swift */; };
 		FA61BDC726C975E20068364F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA61BDC626C975E20068364F /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA0EAF4126CAD1CC00C6B792 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		FA61BDBF26C975DE0068364F /* Business Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA61BDC226C975DE0068364F /* Business_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_CardApp.swift; sourceTree = "<group>"; };
 		FA61BDC426C975DE0068364F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				FA61BDC226C975DE0068364F /* Business_CardApp.swift */,
 				FA61BDC426C975DE0068364F /* ContentView.swift */,
+				FA0EAF4126CAD1CC00C6B792 /* ContactView.swift */,
 				FA61BDC626C975E20068364F /* Assets.xcassets */,
 				FA61BDCB26C975E20068364F /* Info.plist */,
 				FA61BDC826C975E20068364F /* Preview Content */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA61BDC526C975DE0068364F /* ContentView.swift in Sources */,
+				FA0EAF4226CAD1CC00C6B792 /* ContactView.swift in Sources */,
 				FA61BDC326C975DE0068364F /* Business_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

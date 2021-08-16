@@ -12,7 +12,7 @@ struct ContentView: View {
         
         ZStack {
             // background color - custom color
-            Color(red: 0.33, green: 0.94, blue: 0.77)
+            Color(red: 0.24, green: 0.39, blue: 0.51)
                 // fit the background on all screen
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
 
@@ -47,21 +47,11 @@ struct ContentView: View {
                 
                 // added devider
                 Divider()
-                
-                RoundedRectangle(cornerRadius: 25)
-                    .frame(width: 300, height: 50)
-                    .foregroundColor(.white)
+                // extract subview
+                ContactView(contact: "+38 067 503 17 69", imageSystemName: "phone.fill")
+                    .padding()
+                ContactView(contact: "anatoliy.ostapenko@gmail.com", imageSystemName: "envelope.fill")
                     
-                    // set placeholder in rounded rectangle
-                    .overlay(
-                        HStack {
-                            Image(systemName: "phone.fill")
-                                .foregroundColor(.green)
-                            Text("+38 067 503 17 89")
-                                
-                        }
-                        
-                    )
                 
                 
 
@@ -88,3 +78,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
